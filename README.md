@@ -8,8 +8,8 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: Loves tea
 -->
 
-- 🔭 I’m currently working on courses for Moms learn to code. 
-- 🌱 I’m currently learning Ruby on Rails.
+- 🔭 I’m currently working at GitHub. 
+- 🌱 I’m currently learning Go.
 - 👯 I’m looking to collaborate on Ruby Monstas.
 - 💬 Ask me about teaching.
 - 📫 How to reach me: h.harencarova@gmail.com
