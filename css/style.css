@@ -1,0 +1,49 @@
+@import 'footer.css';
+@import 'header.css';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Raleway, sans-serif;;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  background-color: #023047;
+}
+
+main {
+  flex: auto;
+  padding: 5em 2em;
+}
+
+h1, h2 {
+  text-align: center;
+  margin: 3rem 0 1rem;
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 655px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
+}

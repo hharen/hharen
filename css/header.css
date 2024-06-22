@@ -1,0 +1,9 @@
+nav a {
+  text-decoration: none;
+}
+
+.content {
+  min-height: 250px;
+  padding: 3em 2em;
+  color: #ffffff;
+}
