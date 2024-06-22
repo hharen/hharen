@@ -7,3 +7,9 @@ nav a {
   padding: 3em 2em;
   color: #ffffff;
 }
+
+.profile {
+  width: 100px;
+  border-radius: 100px;
+  margin-top: 1em;
+}
