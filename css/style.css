@@ -12,7 +12,6 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  text-align: center;
 }
 
 header {
@@ -21,7 +20,7 @@ header {
 
 main {
   flex: auto;
-  padding: 5em 2em;
+  padding: 3em 2em;
 }
 
 h1, h2 {
@@ -38,12 +37,35 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.5rem;
+  margin: 1.5rem 0 0.2rem;
+}
+
 p {
   margin-bottom: 1em;
+}
+
+.section {
+  max-width: 800px;
+  margin: 4rem;
+
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin: 4rem auto;
 }
 
 @media only screen and (max-width: 655px) {
   h1, h2 {
     font-size: 2rem;
+  }
+
+  main {
+    padding: 0 2rem;
   }
 }
