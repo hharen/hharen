@@ -46,6 +46,10 @@ p {
   margin-bottom: 1em;
 }
 
+a {
+  color: #df7700;
+}
+
 .section {
   max-width: 800px;
   margin: 4rem;
