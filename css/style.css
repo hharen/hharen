@@ -47,6 +47,10 @@ p {
 }
 
 a {
+  color: #0076D1;
+}
+
+a:hover {
   color: #df7700;
 }
 
