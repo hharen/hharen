@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: Raleway, sans-serif;;
+  font-family: Raleway, sans-serif;
+  font-weight: 200;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -54,10 +55,17 @@ a:hover {
   color: #df7700;
 }
 
+.bold {
+  font-weight: 500;
+}
+
+.small {
+  font-size: 0.9rem;
+}
+
 .section {
   max-width: 800px;
   margin: 4rem;
-
 }
 
 .text-center {
@@ -66,6 +74,10 @@ a:hover {
 
 .center {
   margin: 4rem auto;
+}
+
+.talks-list li {
+  margin-bottom: 0.7rem;
 }
 
 @media only screen and (max-width: 655px) {
