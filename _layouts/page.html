@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  {%- include head.html -%}
+
+  <body>
+    {%- include header.html -%}
+
+    <main class="main-page section center">
+      {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+    <script>
+      /* Get current year */
+      const currentYear = new Date().getFullYear();
+      const footerText = document.getElementById('year');
+      footerText.innerHTML += currentYear;
+    </script>
+
+    <script defer data-domain="hharen.com" src="https://plausible.io/js/script.js"></script>
+  </body>
+</html>

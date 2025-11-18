@@ -1,10 +1,44 @@
----
-layout: home
-title: Hana Harencarova
-description: Judgement and decision making researcher turned paragliding instructor turned software developer. In love with Ruby.
----
+<!DOCTYPE html>
+<html lang="en"><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<section class="section center">
+<link rel="stylesheet" href="/css/style.css">
+
+<title>Hana Harencarova</title>
+
+<meta name="author" content="Hana Harencarova 🍵">
+<meta name="description" content="Judgement and decision making researcher turned paragliding instructor turned software developer. In love with Ruby.">
+<meta property="og:locale" content="en_EN">
+<meta property="og:title" content="Hana Harencarova">
+<meta property="og:description" content="Judgement and decision making researcher turned paragliding instructor turned software developer. In love with Ruby.">
+<meta property="og:site_name" content="Hana Harencarova">
+<meta property="og:type" content="Website">
+<meta property="og:url" content="hharen.com">
+<meta property="og:image" content="images/Harencarova_small.jpg">
+
+<!-- Favicon -->
+<link rel="icon" href="/images/favicon.ico">
+<link rel="shortcut-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Raleway:wght@200;500&display=swap" rel="stylesheet">
+<body><header>
+  <div class="content main-header text-center">
+    <p>👋 Nice to have you here!</p>
+    <h1>🍵 Hana Harencarova</h1>
+    <p>Judgement and decision making researcher turned paragliding instructor turned software developer. In love with Ruby.</p>
+    <p>Speaks about Ruby, Rails, life at GitHub and career development.</p>
+    <p>Makes things happen!</p>
+    <img src="images/Harencarova_small.jpg" alt="Hana Harencarova" class="profile">
+  </div>
+</header><main class="main-page">
+      <section class="section center">
   <h2>Things I do/did</h2>
   <ul>
     <li><a href="https://helvetic-ruby.ch">Helvetic Ruby conference</a> (co-organizer)</li>
@@ -102,3 +136,24 @@ description: Judgement and decision making researcher turned paragliding instruc
   <p>🌱🌱🌱</p>
   <p>More coming at some point 😉</p>
 </section>
+
+    </main><footer id="footer">
+  <div class="footer-image">
+    <p>
+      <a href="mailto:hi@hharen.com">hi@hharen.com</a> | 
+      <a href="https://www.linkedin.com/in/hana-harencarova/">LinkedIn</a> | 
+      <a href="https://ruby.social/@hharen">Mastodon</a>
+    </p>
+    <p><span id="year"> © </span></p>
+  </div>
+</footer>
+<script>
+      /* Get current year */
+      const currentYear = new Date().getFullYear();
+      const footerText = document.getElementById('year');
+      footerText.innerHTML += currentYear;
+    </script>
+
+    <script defer data-domain="hharen.com" src="https://plausible.io/js/script.js"></script>
+  </body>
+</html>

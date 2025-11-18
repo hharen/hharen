@@ -1,0 +1,35 @@
+nav a {
+  text-decoration: none;
+}
+
+.content {
+  min-height: 50px;
+  padding: 3em 2em;
+  color: #ffffff;
+}
+
+.main-header {
+  min-height: 250px;
+}
+
+.profile {
+  width: 100px;
+  border-radius: 100px;
+  margin-top: 1em;
+}
+  
+header a, footer a {
+  color: #ffb703;
+  text-decoration: none;
+}
+  
+header a:hover, footer a:hover {
+  color: #fb8500;
+}
+
+footer {
+  padding: 2rem;
+  background-color: #023047;
+  text-align: center;
+  color: white;
+}
