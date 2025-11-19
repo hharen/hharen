@@ -79,6 +79,17 @@ a:hover {
   margin-bottom: 0.7rem;
 }
 
+/* Responsive iframe styles */
+iframe {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+  iframe {
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 655px) {
   h1, h2 {
     font-size: 2rem;
