@@ -14,7 +14,12 @@ description: Resources for the talk.
 - [Repo: Branch deploy Action](https://github.com/github/branch-deploy)
 - [Blog: 5 things to ship more secure](https://github.blog/developer-skills/github/5-simple-things-every-developer-can-do-to-ship-more-secure-code/)
 
+### Video
+<div class="embed-container">
+  <iframe src="https://www.youtube-nocookie.com/embed/iUfP60kJka4?si=VLlVXAzvM0dovK8C" title="How to Ship 1000+ Commits to a Rails Monolith Daily" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
-<div class="pdf-embed-container">
+### Slides
+<div class="embed-container">
   <embed src="slides/How_To_Ship_1000_Commits_Geneva_public.pdf" type="application/pdf" />
 </div>
