@@ -4,12 +4,12 @@ title: How to Ship 1000+ Commits to a Rails Monolith Daily
 description: Resources for the talk.
 ---
 
-## Questions from Eururko 2026 in Brno
+## Questions from Euruko 2026 in Brno
 ### Is the "Ruby next" CI check required?
 - yes :)
 
 ### What does GitHub use for deploys? 
-- to be answered soon
+- We use our internal deploy platform - Heaven. Here's on older blog post, [Deploying branches to GitHub.com](https://github.blog/engineering/engineering-principles/deploying-branches-to-github-com/), but the info is not fully up to date.
 
 ## Resources
 - [Slides](slides/How_To_Ship_1000_Commits_Geneva_public.pdf)
