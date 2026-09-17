@@ -4,6 +4,12 @@ title: How to Ship 1000+ Commits to a Rails Monolith Daily
 description: Resources for the talk.
 ---
 
+## Questions from Eururko 2026 in Brno
+### Is the "Ruby next" CI check required?
+- yes :)
+
+### What does GitHub use for deploys? 
+- to be answered soon
 
 ## Resources
 - [Slides](slides/How_To_Ship_1000_Commits_Geneva_public.pdf)
